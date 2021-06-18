@@ -6,6 +6,7 @@
   <title>Run Buddy</title>
   
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="hero-bg.jpg" href="./assets/images/hero-bg.jpg" />
 </head>
 
 <body>
@@ -37,38 +38,77 @@
     </nav>
 </header>
 
+<!-- hero section -->
 <section>
     <div>
-      <h3>Get Started Today</h3>
-      <p>Fill out this form and one of our trainers will schedule a consult</p>
-    
+      <h3>Get Started Today!</h3>
+      <p>Fill out this form and one of our trainers will schedule a consult.</p>
       <!-- Form element also known as a CTA or call to action-->
     <form>
+        <div class="hero-form">
         <label for="name">Enter full name:</label>
         <input type="text" placeholder="Your Name" name="name" id="name" />
-        
         <label for="email">Enter email address:</label>
         <input type="text" placeholder="Email Address" name="email" id="email" />
-        
         <label for="phone">Enter a telephone number:</label>
         <input type="text" placeholder="Phone Number" name="phone" id="phone"/>
-       </form>
-    </div>
-  </section>
+        <p>
+            Have you worked out with a trainer before?
+            <input type="radio" name="trainer-confirm" id="trainer-yes" />
+            <label for="trainer-yes">Yes</label>
+            <input type="radio" name="trainer-confirm" id="trainer-no" />
+            <label for="trainer-no">No</label>
+          </p>
+          <p>
+            <label for="checkbox" >
+              I acknowledge that I am at least 18 years of age.
+            </label>
+            <input type="checkbox" name="age-confirm" id="checkbox" />
+          </p>
+          <button type="submit">
+            Get running!
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- end hero -->
 
 <!-- hero/jumbnotron -->
 <section>
 </section>
 
 <!-- "what we do" section -->
-<section>
-        <h2>What We Do</h2>
-</section>
-
-<!-- "what you do" section -->
-<section>
-    <h2>What You Do</h2>
-</section>
+<section id="what-we-do">
+    <h2>What We Do</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rem error quidem ipsa tempora. Excepturi animi quaerat nostrum obcaecati placeat illum ipsam culpa qui laudantium eligendi velit, fuga cupiditate quibusdam!
+    </p>
+  </section>
+  
+  <!-- "what you do" section -->
+  <section  id="what-you-do">
+    <h2>What You Do</h2> 
+  
+    <div>
+      <h3>Step 1: Fill Out the Form Above.</h3>
+      <p>You're already here, so why not?</p>
+    </div>
+  
+    <div>
+      <h3>Step 2: Consult with One of Our Trainers.</h3>
+      <p>Are you here to build muscle, lose weight, or just feel good?</p>
+    </div>
+  
+    <div>
+      <h3>Step 3: Get Running.</h3>
+      <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+    </div>
+  
+    <div>
+      <h3>Step 4: See Results.</h3>
+      <p>Bi-weekly checkins with your trainer will keep you focused</p>
+    </div>
+  </section>  
 
 <!-- "meet the trainers" section -->
 <section>
@@ -92,7 +132,12 @@
 
 </html>
 
+
+<!-- Issues -->
+<!-- Can't get the background image to show up- hero image. I have it saved to the folder -->
+
 <!-- Samantha Peterson -->
+<!-- Notes -->
 <!-- Hero image is the large banner across the top of your main page -trying to grab attention and keep people on your page -->
 <!-- notes mkdir creates new folder - cd in command line or terminal moves you from folder to folder -->
 <!-- notes pwd in command line or terminal will let you see  where you are at ls will let you see if see if the folder you tried to make is there -->
@@ -106,3 +151,8 @@
 it was nice to have a road map to refer to to see where i had gotten off and where i needed to make adjustments
 my tabs were not as cleaned up and some of my lines were a little bit out of order  
 -->
+
+<!-- mkdir <directory name> creates a new directory in the current directory.  -->
+<!-- cd <directory name> changes into a new directory that's in the current directory. -->
+<!-- touch <filename> creates new file in the current directory. -->
+<!-- rm <filename> removes an existing file in the current directory.  -->
