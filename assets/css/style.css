@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+  }
+ 
+  
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+  }
+
+
+header a {
+    text-decoration: none;
+    color: #fce138;
+  }
+  
+
+header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+
+header nav ul li {
+    display: inline;
+  }
+  
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+  
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+  }
+  
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+ 
+footer a {
+    color: #024e76;
+  }
+  
+
+  section {
+    padding: 60px;
+  }
+
+/* Hero Start */
+.hero {
+    background-image: url('../images/hero-bg.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  /* Hero End */
+  
+  .hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+  }
+  
+  .hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  .hero-form p {
+    margin: 5px 0 15px 0;
+  }
+  
+  .form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .hero-form label {
+    margin: 0 5px;
+  }
+  
+  .hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+ 
+
+  /* This is how you make notes */
+
+ /* * is a universal selector it will basically catch all */
+
+ /*Selector is the body, selector tells you what html element to find*/  
+
+/*Property name is font family, it is telling me what i am wanting to change or determine in the body - the attribute*/
+
+/*property value is the specified font option of fonts we have font1, font2, font3 (that block)*/
+
+/*declaration is the font we end up using*/
+
+/*declaration termanator is the ; it comes after the seclector and follows every propery name and value*/ 
+
+/*css rule  is the whole block you see it's basically saying if you do or see a then do b */
+
+/*separation of concerns means that it is a good idea to keep code in different doc or languages to keep things in order
+    then just link them to each other*/
+
+    /*inline styling would be if we wrote the css right into the html */
+
+ /* example 
+ 
+ Selector {
+    Property name: declaration 1, declaration2, declaration3;  
+    Property name:property value;
+ }                         
+ 
+                                                                    The entire block above is a css rule
+                                                                    ;  = declaration termanator     
+                                                                    Look for the selector in the html
+                                                                    the property name and value control what 
+                                                                    will hapen to it   
+ */
