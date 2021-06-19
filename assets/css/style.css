@@ -214,15 +214,19 @@ footer a {
 */
 
 /* this will be added to entire trainers section elememt, the class atribute is trainers  */
+
 .trainers {
     text-align: center;
   }
+
 /* here we add style to whole article element, class is trainer */
+
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
     background: #024e76;
     color: #fce138;
+    overflow: auto;
   }
 
 .trainer img {
@@ -235,7 +239,6 @@ footer a {
     float: left;
     width: 65%;
   }
-
 
   .trainer-bio h3 {
     font-size: 32px;
