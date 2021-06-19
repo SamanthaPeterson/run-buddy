@@ -213,6 +213,38 @@ footer a {
 
 */
 
+/* this will be added to entire trainers section elememt, the class atribute is trainers  */
+.trainers {
+    text-align: center;
+  }
+/* here we add style to whole article element, class is trainer */
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+  }
+
+.trainer img {
+    width: 35%;
+    float: left;
+  }
+  
+  .trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+  }
+
+.text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+
+
 
 
   /* This is how you make notes */
@@ -249,3 +281,6 @@ footer a {
                                                                     the property name and value control what 
                                                                     will hapen to it   
  */
+
+ /* understanding margin: order for labeling margin and padding = clockwise (top, right, bottom, left). example:
+margin: 0 auto 30px auto; this = "margin-top: 0", "margin-right: auto", "margin-bottom: 30px", and "margin-left: auto". */
