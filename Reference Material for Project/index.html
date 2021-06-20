@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Run Buddy</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!-- navigation -->
+  <header>
+    <h1>
+      <a href="/"> 
+        RUN BUDDY
+      </a>
+    </h1>
+    <nav>
+      <!-- Unordered list element -->
+      <ul>
+        <!-- List item element-->
+        <li>
+          <!-- Anchor element -->
+          <a href="#what-we-do">What We Do</a>
+        </li>
+        <li>
+          <a href="#what-you-do">What You Do</a>
+        </li>
+        <li>
+          <a href="#your-trainers">Your Trainers</a>
+        </li>
+        <li>
+          <a href="#reach-out">Reach Out</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- hero/jumbotron -->
+  <section class="hero">
+    <div class="hero-form">
+      <h3>Get Started Today</h3>
+      <p>Fill out this form and one of our trainers will schedule a consult</p>
+      <form>
+        <label for="name">Enter full name:</label>
+        <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+        <label for="email">Enter email address:</label>
+        <input type="text" placeholder="Email Address" name="email" id="email" class="form-input" />
+        <label for="phone">Enter a telephone number:</label>
+        <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
+        <p>
+          Have you worked out with a trainer before?
+          <input type="radio" name="trainer-confirm" id="trainer-yes" />
+          <label for="trainer-yes">Yes</label>
+          <input type="radio" name="trainer-confirm" id="trainer-no" />
+          <label for="trainer-no">No</label>
+        </p>
+        <p>
+          <label for="checkbox">
+            I acknowledge that I am at least 18 years of age.
+          </label>
+          <input type="checkbox" name="checkpoint1" id="checkbox" />
+        </p>
+        <button type="submit">
+          Get running!
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- "what we do" section -->
+  <section id="what-we-do" class="intro">
+    <h2 class="section-title primary-border">What We Do</h2>
+    <p>
+      butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue
+      Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin
+      fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz
+      sustainable Intelligentsia umami deep v craft
+    </p>
+  </section>
+
+  <!-- "what you do" section -->
+  <section id="what-you-do" class="steps">
+    <h2 class="section-title secondary-border">What You Do</h2>
+
+    <div>
+      <img src="./assets/images/step-1.svg" alt="" />
+      <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
+      <p>You're already here, so why not?</p>
+    </div>
+
+    <div>
+      <img src="./assets/images/step-2.svg" alt="" />
+      <h3>Step 2: <span>Consult with One of Our Trainers.</span></h3>
+      <p>Are you here to build muscle, lose weight, or just feel good?</p>
+    </div>
+
+    <div>
+      <img src="./assets/images/step-3.svg" alt="" />
+      <h3>Step 3: <span>Get Running.</span></h3>
+      <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+    </div>
+
+    <div>
+      <img src="./assets/images/step-4.svg" alt="" />
+      <h3>Step 4: <span>See Results.</span></h3>
+      <p>Bi-weekly checkins with your trainer will keep you focused</p>
+    </div>
+  </section>
+
+
+  <!-- "what you do" section -->
+  <section>
+    <h2>What You Do</h2>
+    <!-- svg img element -->
+<div class="steps">
+  <img src="./assets/images/step-1.svg" alt="" />
+  <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
+  <p>You're already here, so why not?</p>
+</div>
+<!-- alt attribute not necessary?? WAIT -a screen reader will not know a missing alt atrbt = "unimportant icon." 
+    VERY Important- use (alt="") so the screen reader knows to ignore it. -->
+<!-- svg img element -->
+<div>
+    <img src="./assets/images/step-2.svg" alt="" />
+    <h3>Step 2: Consult with One of Our Trainers.</h3>
+    <p>Are you here to build muscle, lose weight, or just feel good?</p>
+  </div>
+  <!-- svg img element -->
+  <div>
+    <img src="./assets/images/step-3.svg" alt="" />
+    <h3>Step 3: Get Running.</h3>
+    <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+  </div>
+  <!-- svg img element -->
+  <div>
+    <img src="./assets/images/step-4.svg" alt="" />
+    <h3>Step 4: See Results.</h3>
+    <p>Bi-weekly checkins with your trainer will keep you focused</p>
+  </div>
+</section>
+
+  <!-- "meet the trainers" section -->
+  <!-- section is the element, we are using "your-trainers" as an id-attribute", at the end we have a class called trainers -->
+  <section id="your-trainers" class="trainers">
+    <h2 class="section-title primary-border">
+        Meet the Trainers
+      </h2> <!-- this is a closing element </ > -->
+      <article class="trainer"> <!-- article = semantic element, encapsulates content, works on its own in a page, aka the content inside the <article> element is related to one another and nothing outside the element. In this example, we've wrapped all the content related to a single trainer in this element, so when a screen reader reads the section, it will infer that all of this content is related. -->
+        <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+        <div class="trainer-bio text-left">
+            <h3>Arron Stephens</h3>
+            <h4>Speed / Strength</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam distinctio tempore fugit nostrum rerum quaerat optio quibusdam, illum sint quia enim cumque provident
+                 ipsam iusto suscipit voluptatum aut dignissimos?
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis adipisci ratione culpa harum hic odio quisquam accusantium rerum. Neque quo similique consectetur, officiis ad labore. Voluptatum maxime eligendi nostrum excepturi!
+                </p>
+          </div>
+      </article> 
+  <!-- second trainer bio Joanna Gill-->
+  <article class="trainer">
+    <div class="trainer-bio text-right">
+      <h3>Joanna Gill</h3>
+      <h4>Endurance</h4>
+      <p>
+       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam voluptates possimus soluta excepturi et. Placeat deleniti velit earum. Saepe praesentium architecto optio? Earum quaerat maiores distinctio neque,
+        tenetur eius at!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eum perferendis exercitationem beatae molestias ut in esse natus hic, et porro ipsa aperiam fugit magni nam distinctio ab nesciunt laudantium.
+      </p>
+    </div>
+    <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+  </article>
+
+  <!-- third trainer bio Harry "the Headband" Smith -->
+  <article class="trainer">
+    <img src="./assets/images/trainer-3.jpg"
+      alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+    <div class="trainer-bio text-left">
+      <h3>Harry "the Headband" Smith</h3>
+      <h4>Strength</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi nihil perferendis, maxime veritatis debitis nobis magnam, at doloribus 
+        temporibus quo ipsa laborum eveniet! Incidunt, eaque voluptatum minima ducimus mollitia et?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia totam nisi repellendus, sunt sed ex iste maxime dignissimos illo ad nobis nemo voluptates saepe sequi. Et illo quisquam molestiae doloremque.
+      </p>
+    </div>
+  </article>
+</section>
+
+  <!-- "reach out" section -->
+  <section id="reach-out" class="contact">
+    git<h2 class="section-title secondary-border">Reach Out</h2>
+    <div class="contact-info">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3069.103182890136!2d-111.82101618437538!3d39.71486377945281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874c5667861b4757%3A0x6eb31dd137731f12!2s432%20N%20900%20E%2C%20Nephi%2C%20UT%2084648!5e0!3m2!1sen!2sus!4v1624107189033!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        width="400" 
+        height="400" 
+        style="border:0;" 
+        allowfullscreen=""
+        loading="lazy">
+        </iframe>
+      </div>
+      <div>
+        <h3>Run Buddy</h3>
+        <p>
+          Any questions or concerns before signing up?
+          <br />
+          Let us know and we'll be happy to talk to you!
+        </p>
+      </div>
+      <div>
+        <h3>Run Buddy</h3>
+        <p>
+          Any questions or concerns before signing up?
+          <br />
+          Let us know and we'll be happy to talk to you!
+        </p>
+        <address>
+          55 Main Street <br/>
+          Some Town, Ca <br/>
+          12345<br />
+          P: 555.RUN.BUDZ (555.786.2839)<br/>
+          E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+        </address>
+      </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <h2>❤️ Made with love by Run Buddy.</h2>
+    <div>
+      <a href="#">Read Our Privacy Policy</a><br />
+      &copy; 2019 Run Buddy, Inc.
+    </div>
+  </footer>
+</body>
+
+</html>
+
+<!-- Issues -->
+<!-- Can't get the background image to show up- hero image. I have it saved to the folder - finally fixed -->
+<!--i missed adding overflow for the trainers and it caused me a huge headache  -->
+<!--Where did my yellow line go under what we do? it was there before  -->
+
+
+<!-- Samantha Peterson -->
+<!-- Notes -->
+<!-- Hero image is the large banner across the top of your main page -trying to grab attention and keep people on your page -->
+<!-- notes mkdir creates new folder - cd in command line or terminal moves you from folder to folder -->
+<!-- notes pwd in command line or terminal will let you see  where you are at ls will let you see if see if the folder you tried to make is there -->
+
+<!-- notes Inline Styling  this is an example <h1 style="color: blue; font-size: 100px;">RUN BUDDY</h1> -->
+<!-- notes Inline Styling  you could also write it out on several lines  -->
+
+<!-- header is the child of body  -->
+
+<!-- Having a code snapshot to refer to was helpful, there were a few items i made mistakes on
+it was nice to have a road map to refer to to see where i had gotten off and where i needed to make adjustments
+my tabs were not as cleaned up and some of my lines were a little bit out of order  
+-->
+
+<!-- mkdir <directory name> creates a new directory in the current directory.  -->
+<!-- cd <directory name> changes into a new directory that's in the current directory. -->
+<!-- touch <filename> creates new file in the current directory. -->
+<!-- rm <filename> removes an existing file in the current directory.  -->
+
+    <!-- I tried to link images at one point because i am having a difficult time getting the hero 
+        image to load on the web page for me  
+    <link rel="hero-bg.jpg" href="./assets/images/hero-bg.jpg" />  -->
